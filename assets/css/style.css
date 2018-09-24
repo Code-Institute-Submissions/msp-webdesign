@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* Navbar */
+
+.nav-custom{
+    background: rgba(0,0,0,0.5);
+    color: #ffffff;
+}
+
+.hvr-sweep-to-bottom:before{
+    background-color: #f05f40;
+}
+
+.navbar-collapse.collapse.in{
+  background-color:#f05f40;
+}
+
+.navbar-header .navbar-brand{
+    color: white;
+    font-weight: bold; 
+}
+
+#list ul li a{
+    color: white;
+    font-weight: bold;
+}
+
+#list ul li a:hover{
+    background-color: #f05f40;
+    transition: ease-in-out;
+    transition-delay: 0.35s;
+}
+
+/* Containers */
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
+.callout-container {
+    height: 100vh;
+    
+    background: url('../images/it-background-4.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.jumbotron .lead {
+    color: white;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+.service-section {
+    box-shadow: 1px 1px 10px rgba(0,0,0,.1);
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+    color: #1e1e1e;
+    overflow: hidden;
+    height: calc(100% - 30px);
+}
+
+.service_header {
+    background: #fff;
+    font: 600 18px/normal 'Poppins';
+    border: thin;
+}
+
+.service_header, .serviceblock-content {
+    padding: 30px;
+    float: left;
+    width: 100%;
+}
+
+.service_header span {
+    font: 600 22px/normal 'Poppins';
+    color: #1c3784;
+    /*margin-bottom: -34px;*/
+    display: block;
+    border:thin;
+}
+
+.serviceblock-content {
+     background-color:#eee ; 
+     border:thin;
+     border-color: black;
+}
+
+.lightgrey{
+    background-color:#eee ;
+}
+
+.service_header:hover, .service_header:hover span
+{
+    background: #1c3784;
+    color: white !important;
+}
+
+/* Quotes */
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+.quotes i{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.quotes a{
+    text-decoration: none;
+    color: #1c3784;
+}
+
+.blockquote quote {
+    border-left: 0;
+}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.no-pad{
+    padding: 0px 0px;
+}
+
+.jumbo{
+    padding: 0px 0px;
+}
+
+
+.flowover{
+    margin-top: -30px;
+}
+
+.Company-Info{
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+#footer-details{
+    background-color:#1c3784; 
+    color:grey;
+}
+
+.social-links li a i {
+    width: 60px;
+    height: 60px;
+    padding: 25px 0;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
