@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* Navbar */
+/*Generic*/
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* ---------------------------------------------------------Navbar */
 
 .nav-custom{
     background: rgba(0,0,0,0.5);
@@ -31,7 +36,8 @@
     transition-delay: 0.35s;
 }
 
-/* Containers */
+
+/* ---------------------------------------------------------Call out Container */
 
 .container-wrapper--red {
     background-color: #f05f40;
@@ -59,7 +65,7 @@
     padding-bottom: 75px;
 }
 
-/* Jumbotron */
+/* ---------------------------------------------------------Jumbotron */
 
 .jumbotron {
     background-color: transparent;
@@ -83,8 +89,12 @@
     font-style: italic;
     color: #d0d0d0;
 }
+.jumbo{
+    padding: 0px 0px;
+}
 
-/* Buttons */
+
+/* ---------------------------------------------------------Buttons */
 
 .btn--cta {
     font-weight: bold;
@@ -106,6 +116,8 @@
     border-color: #df4929;
     color: white;
 }
+
+/*---------------------------------------------------------Services*/
 
 .service-section {
     box-shadow: 1px 1px 10px rgba(0,0,0,.1);
@@ -153,7 +165,10 @@
     color: white !important;
 }
 
-/* Quotes */
+.flowover{
+    margin-top: -30px;
+}
+/* ---------------------------------------------------------Quotes */
 
 .quotes .page-header {
     margin-bottom: 25px;
@@ -174,6 +189,12 @@
 .blockquote quote {
     border-left: 0;
 }
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+/*---------------------------------------------------------Blockdividers*/
 
 .block-divider {
     width: 75px;
@@ -203,14 +224,7 @@
     padding: 0px 0px;
 }
 
-.jumbo{
-    padding: 0px 0px;
-}
-
-
-.flowover{
-    margin-top: -30px;
-}
+/*---------------------------------------------------------Footer*/
 
 .Company-Info{
     margin-bottom: 20px;
@@ -251,12 +265,4 @@
 
 }
 
-.general-sub {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-}
 
-.uppercase{
-    text-transform: uppercase;
-}

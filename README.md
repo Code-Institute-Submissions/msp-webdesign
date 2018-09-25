@@ -49,6 +49,7 @@ The site can be viewed [HERE](https://github.com/MartinLoef/msp-webdesign)
 - [Font Awesome](https://fontawesome.com/)
 - **Javascript**
     - Used to get auto collapse the navbar after chosing an option.
+- **Hoover effects** (https://ianlunn.github.io/Hover/)
 
 ## Testing
 - All code used on the site has been tested to ensure everything is working as expected
@@ -58,9 +59,13 @@ The site can be viewed [HERE](https://github.com/MartinLoef/msp-webdesign)
   - Safari
 
 ## Contributing
+
+ -  lay-out idea's from the whiskey and resume site we've build during the course
+ -  Jumbotron
+ -  footer and social media links
  
 ### Getting the code up and running
-1. You will need to clone this repository by running the ```git clone <project's Github URL>``` command
+1. You will need to clone this repository by running the ```git clone(https://github.com/MartinLoef/msp-webdesign)``` command
 
 
 ## Credits
@@ -79,3 +84,4 @@ The site can be viewed [HERE](https://github.com/MartinLoef/msp-webdesign)
     - Online reviews on (https://www.feedbackcompany.com/)
     - Technical support from (www.w3schools.com) and (www.stackoverflow.com)
     - Logo creation (https://logojoy.com/explore)
+    - Collapse mobile menu courtesy of Stack OVerflow answer: https://stackoverflow.com/a/32336582
