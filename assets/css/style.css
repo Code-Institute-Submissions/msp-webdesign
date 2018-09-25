@@ -214,6 +214,7 @@
 
 .Company-Info{
     margin-bottom: 20px;
+    padding-left: 10px;
     display: block;
     clear: both;
 }
@@ -221,6 +222,11 @@
 #footer-details{
     background-color:#1c3784; 
     color:grey;
+}
+
+.extra-margin{
+    margin-top: 40px;
+    padding-left: 25px;
 }
 
 .social-links li a i {
