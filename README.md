@@ -73,6 +73,7 @@ The site can be viewed [HERE](https://github.com/MartinLoef/msp-webdesign)
 ### Media
 - The photos(quote section) used in this site were obtained from [Sjaak Loef](http://www.loeffotografie.nl/)
 - The background used on this site i have found on google which reffered me to(http://www.simdols.com/image-sitemap-1.xml)
+- https://www.freepik.com/free-photos-vectors/grey-background
 
 ### Information
 - The information used to create this site was from a number of sources
